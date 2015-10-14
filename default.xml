@@ -8,6 +8,7 @@
 	<project path="build" name="cuteboot/build" > 
 		<copyfile src="Makefile" dest="Makefile" />
                 <copyfile src="LICENSE" dest="LICENSE" />
+                <copyfile src="README" dest="README" />
 	</project>
 
 	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="lollipop-dev" />
