@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="cuteboot" fetch=".." review="" />
+	<remote name="aosp" fetch="https://android.googlesource.com/" />
+
+	<default revision="master" remote="cuteboot" />
+	
+	<project path="build" name="cuteboot/build" > 
+		<copyfile src="Makefile" dest="Makefile" />
+                <copyfile src="LICENSE" dest="LICENSE" />
+	</project>
+
+	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="lollipop-dev" />
+	<project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" remote="aosp" revision="lollipop-dev" />
+	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" remote="aosp" revision="lollipop-dev" />
+	<project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="lollipop-dev" />
+
+	<project path="qtbase" name="cuteboot/qtbase" revision="dev" />
+	<project path="qtdeclarative" name="cuteboot/qtdeclarative" revision="dev" />
+</manifest>
