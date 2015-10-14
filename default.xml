@@ -15,6 +15,6 @@
 	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" remote="aosp" revision="lollipop-dev" />
 	<project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="lollipop-dev" />
 
-	<project path="qtbase" name="cuteboot/qtbase" revision="dev" />
-	<project path="qtdeclarative" name="cuteboot/qtdeclarative" revision="dev" />
+	<project path="qtbase" name="cuteboot/qtbase" revision="cuteboot" />
+	<project path="qtdeclarative" name="cuteboot/qtdeclarative" revision="cuteboot" />
 </manifest>
