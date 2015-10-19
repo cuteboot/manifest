@@ -14,6 +14,9 @@
 	<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="lollipop-dev" />
 	<project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" remote="aosp" revision="lollipop-dev" />
 	<project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" remote="aosp" revision="lollipop-dev" />
+	<project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" remote="aosp" revision="lollipop-dev" />
+	<project path="prebuilts/misc" name="platform/prebuilts/misc" remote="aosp" revision="lollipop-dev" />
+
 	<project path="prebuilts/ndk" name="platform/prebuilts/ndk" remote="aosp" revision="lollipop-dev" />
 
 	<project path="qtbase" name="cuteboot/qtbase" revision="cuteboot" />
