@@ -18,4 +18,5 @@
 
 	<project path="qtbase" name="cuteboot/qtbase" revision="cuteboot" />
 	<project path="qtdeclarative" name="cuteboot/qtdeclarative" revision="cuteboot" />
+	<project path="qtmultimedia" name="cuteboot/qtmultimedia" revision="cuteboot" />
 </manifest>
