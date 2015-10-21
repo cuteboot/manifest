@@ -23,4 +23,6 @@
 	<project path="qtdeclarative" name="cuteboot/qtdeclarative" revision="cuteboot" />
 	<project path="qtmultimedia" name="cuteboot/qtmultimedia" revision="cuteboot" />
 	<project path="aidl_cpp" name="cuteboot/aidl_cpp" revision="master" />
+        <project path="libcutebinder" name="cuteboot/libcutebinder" revision="master" />
+        <project path="cutesystemserver" name="cuteboot/cutesystemserver" revision="master" />
 </manifest>
